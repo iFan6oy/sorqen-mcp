@@ -1,12 +1,21 @@
-# Sorqen MCP
+# Sorqen API + MCP
+
+**Sorqen API is a sports fair-value API and MCP server by [Flash AI Solutions](https://flashaisolutions.org).** Sorqen de-vigs quotes from multiple sportsbooks per market, then aggregates them into versioned no-vig consensus probabilities with confidence, provenance, history, and settlement context.
+
+This repository is the **public connector and metadata surface** for the hosted Sorqen API and MCP service. There is no proprietary Sorqen backend server to install from this repository. Point your client at the hosted endpoint and authenticate with a Sorqen API key for live data.
 
 <a href="https://glama.ai/mcp/servers/iFan6oy/sorqen-mcp">
-  <img width="380" height="200" src="https://glama.ai/mcp/servers/iFan6oy/sorqen-mcp/badge" alt="Sorqen MCP server" />
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/iFan6oy/sorqen-mcp/badge" alt="Sorqen API MCP server" />
 </a>
 
-Sportsbook-derived **fair value** over the [Model Context Protocol](https://modelcontextprotocol.io). Sorqen de-vigs quotes from multiple sportsbooks per market, then aggregates them into a versioned, no-vig consensus probability with confidence and provenance, plus history and settlement context.
+## Canonical Sorqen links
 
-This repo is the **connector** for the hosted Sorqen MCP server. There is no server to install. Point your MCP client at the remote endpoint and authenticate with a Sorqen API key.
+- Website: https://sorqen.flashodds.live/
+- Documentation: https://sorqen.flashodds.live/docs
+- OpenAPI: https://sorqen.flashodds.live/openapi.json
+- MCP endpoint: https://sorqen.flashodds.live/mcp
+- Free API key: https://sorqen.flashodds.live/keys
+- Publisher: https://flashaisolutions.org
 
 ## Connect
 
