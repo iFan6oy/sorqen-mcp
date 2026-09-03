@@ -1,0 +1,34 @@
+{
+	"$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+	"name": "io.github.iFan6oy/sorqen",
+	"title": "Sorqen",
+	"description": "Sportsbook-derived no-vig fair value with confidence, provenance, and history over REST/MCP.",
+	"repository": {
+		"url": "https://github.com/iFan6oy/sorqen-mcp",
+		"source": "github"
+	},
+	"version": "0.1.1",
+	"websiteUrl": "https://sorqen.flashodds.live",
+	"remotes": [
+		{
+			"type": "streamable-http",
+			"url": "https://sorqen.flashodds.live/mcp",
+			"headers": [
+				{
+					"name": "Authorization",
+					"description": "Your Sorqen API key, as a Bearer token.",
+					"isRequired": true,
+					"isSecret": true,
+					"value": "Bearer {api_key}"
+				}
+			],
+			"variables": {
+				"api_key": {
+					"description": "Your Sorqen API key. Get a free one at https://sorqen.flashodds.live/keys.",
+					"isRequired": true,
+					"isSecret": true
+				}
+			}
+		}
+	]
+}
