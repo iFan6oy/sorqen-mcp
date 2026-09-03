@@ -1,5 +1,9 @@
 # Sorqen MCP
 
+<a href="https://glama.ai/mcp/servers/iFan6oy/sorqen-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/iFan6oy/sorqen-mcp/badge" alt="Sorqen MCP server" />
+</a>
+
 Sportsbook-derived **fair value** over the [Model Context Protocol](https://modelcontextprotocol.io). Sorqen de-vigs quotes from multiple sportsbooks per market, then aggregates them into a versioned, no-vig consensus probability with confidence and provenance, plus history and settlement context.
 
 This repo is the **connector** for the hosted Sorqen MCP server. There is no server to install. Point your MCP client at the remote endpoint and authenticate with a Sorqen API key.
